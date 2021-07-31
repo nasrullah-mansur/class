@@ -1,0 +1,66 @@
+/* 
+    Theme name: CSS Float, Flex & Grid Tutorial;
+    Theme version: 1.0;
+    Email: nasrullah.cit.bd@gmail.com;
+
+    =========== Table of contents ==========
+    1 Common CSS
+    2 Float
+    3 Flex
+    4 Grid
+*/
+
+/* ============
+========== Common CSS ========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --body-color: #807979;
+    --heading-color: #362323;
+    --body-font: 'Poppins', sans-serif;
+
+    /* Some Colors */
+    --color-1: #1abc9c;
+    --color-2: #9b59b6;
+    --color-3: #3c6382;
+    --color-4: #e58e26;
+    --color-5: #38ada9;
+    --color-6: #706fd3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.8rem;
+    font-family: var(--body-font); 
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--body-color);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+
+/* ============
+========== Float ========= */
